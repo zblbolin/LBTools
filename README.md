@@ -13,16 +13,21 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-LBTools is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+使用方法一:
+使用cocoapods:
 
 ```ruby
 pod 'LBTools'
 ```
+导入头文件
+
+```ruby
+#import 'LBSebmentBarVC.h'
+```
 
 ## Author
 
-812920365@qq.com, 812920365@qq.com
+作者:卟师, 812920365@qq.com
 
 ## License
 
