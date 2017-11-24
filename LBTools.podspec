@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LBTools'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LBTools.'
+  s.summary          = '自己封装的控件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+LBTools.自己封装的控件和一些工具类
                        DESC
 
-  s.homepage         = 'https://github.com/812920365@qq.com/LBTools'
+  s.homepage         = 'https://github.com/zblbolin/LBSegmentBar'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '812920365@qq.com' => '812920365@qq.com' }
-  s.source           = { :git => 'https://github.com/812920365@qq.com/LBTools.git', :tag => s.version.to_s }
+  s.author           = { '812920365@qq.com' => '卟师' }
+  s.source           = { :git => 'https://github.com/zblbolin/LBSegmentBar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LBTools/Classes/**/*'
-  
+#s.source_files = 'LBTools/Classes/**/*'
+    s.subspec 'Base' do |b|
+        b.source_files = 'LBTools/Classes/Base/*'
+    end
   # s.resource_bundles = {
   #   'LBTools' => ['LBTools/Assets/*.png']
   # }
