@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LBTools_Example' do
+  pod 'LBTools', :path => '../'
+
+  target 'LBTools_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
