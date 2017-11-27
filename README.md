@@ -80,7 +80,7 @@ config.itemNC([UIColor redColor]).itemSC([UIColor orangeColor]).indicatorEW(10);
 ```
 
 ## 效果图
-![](images/mm.mp4)
+![效果图](images/mm.png)
 
 ### [作者简书地址](http://www.jianshu.com/u/75e18a4ed4db)
 ## Author
