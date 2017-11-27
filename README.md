@@ -78,6 +78,11 @@ config.itemNC([UIColor redColor]).itemSC([UIColor orangeColor]).indicatorEW(10);
 ```ruby
 -(void)setUpWithItems:(NSArray <NSString *>*)items childViewControllers:(NSArray <UIViewController *>*)childViewControllers;
 ```
+
+## 效果图
+![](images/mm.mp4)
+
+### [作者简书地址](http://www.jianshu.com/u/75e18a4ed4db)
 ## Author
 
 作者:卟师, 812920365@qq.com
