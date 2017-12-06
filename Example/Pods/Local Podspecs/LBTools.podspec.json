@@ -20,8 +20,12 @@
   },
   "subspecs": [
     {
-      "name": "Base",
-      "source_files": "LBTools/Classes/Base/*"
+      "name": "LBSegmentBar",
+      "source_files": "LBTools/Classes/Base/LBSegmentBar/*"
+    },
+    {
+      "name": "LBDownLoader",
+      "source_files": "LBTools/Classes/Base/LBDownLoader/*"
     }
   ]
 }

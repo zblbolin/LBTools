@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "LBDownLoader.h"
+#import "LBDownLoaderManaher.h"
+#import "LBDownLoaderModel.h"
+#import "LBFileTool.h"
+#import "NSString+LB.h"
 #import "LBSegmentBar.h"
 #import "LBSegmentBarConfig.h"
 #import "LBSementBarVC.h"

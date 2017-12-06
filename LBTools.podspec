@@ -31,8 +31,11 @@ LBTools.自己封装的控件和一些工具类
   s.ios.deployment_target = '8.0'
 
 #s.source_files = 'LBTools/Classes/**/*'
-    s.subspec 'Base' do |b|
-        b.source_files = 'LBTools/Classes/Base/*'
+    s.subspec 'LBSegmentBar' do |segmentBar|
+        segmentBar.source_files = 'LBTools/Classes/Base/LBSegmentBar/*'
+    end
+    s.subspec 'LBDownLoader' do |downLoader|
+        downLoader.source_files = 'LBTools/Classes/Base/LBDownLoader/*'
     end
   # s.resource_bundles = {
   #   'LBTools' => ['LBTools/Assets/*.png']
