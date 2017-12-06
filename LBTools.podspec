@@ -35,10 +35,10 @@ LBTools.自己封装的控件和一些工具类
 
 
     s.subspec 'LBSegmentBar' do |e|
-        e.source_files = 'LBTools/Classes/Base/LBSegmentBar/**/*'
+        e.source_files = 'LBTools/Classes/Base/LBSegmentBar/*'
     end
     s.subspec 'LBDownLoader' do |d|
-        d.source_files = 'LBTools/Classes/Base/LBDownLoader/**/*'
+        d.source_files = 'LBTools/Classes/Base/LBDownLoader/*'
     end
   # s.resource_bundles = {
   #   'LBTools' => ['LBTools/Assets/*.png']
