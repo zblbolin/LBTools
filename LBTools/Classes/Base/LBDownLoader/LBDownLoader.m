@@ -216,7 +216,7 @@
         //数据肯定是请求完毕
         //判断,本地缓存 == 文件总大小
         //如果等于 => 验证文件是否完整(file md5)
-#warning ---这里需要先验证文件的完整性,用(file md5)验证
+// ---这里需要先验证文件的完整性,用(file md5)验证
         [LBFileTool moveFile:self.downLoadingPath toPath:self.downLoadedPath];
         self.state = LBDownLoaderStatePauseSuccess;
         
