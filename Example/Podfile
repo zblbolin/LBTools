@@ -1,5 +1,6 @@
 use_frameworks!
 platform :ios, '8.0'
+project 'LBTools.xcodeproj'
 target 'LBTools_Example' do
   pod 'LBTools', :path => '../'
 

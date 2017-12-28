@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LBTools'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '自己封装的控件'
 
 # This description is used to generate tags and improve search results.
@@ -36,9 +36,13 @@ LBTools.自己封装的控件和一些工具类
 
     s.subspec 'LBSegmentBar' do |e|
         e.source_files = 'LBTools/Classes/Base/LBSegmentBar/*'
+        e.dependency 'AFNetworking', '~> 2.3'
     end
     s.subspec 'LBDownLoader' do |d|
         d.source_files = 'LBTools/Classes/Base/LBDownLoader/*'
+    end
+    s.subspec 'LBDownLoader' do |r|
+        r.source_files = 'LBTools/Classes/Base/SZRecorder/*'
     end
   # s.resource_bundles = {
   #   'LBTools' => ['LBTools/Assets/*.png']

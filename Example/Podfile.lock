@@ -1,14 +1,37 @@
 PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LBTools (0.1.0):
-    - LBTools/LBDownLoader (= 0.1.0)
-    - LBTools/LBSegmentBar (= 0.1.0)
-  - LBTools/LBDownLoader (0.1.0)
-  - LBTools/LBSegmentBar (0.1.0)
+  - LBTools (0.1.2):
+    - LBTools/LBDownLoader (= 0.1.2)
+    - LBTools/LBDownLoader (= 0.1.2)
+    - LBTools/LBSegmentBar (= 0.1.2)
+  - LBTools/LBDownLoader (0.1.2)
+  - LBTools/LBSegmentBar (0.1.2):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -19,9 +42,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LBTools: 599f2ec4baaaa0d21095679a70319a54be98f1a4
+  LBTools: 56a848a17e7f8a4acf1f0aa6cfdebc4664a2d944
 
-PODFILE CHECKSUM: d5f37cb71b6170fa45605cf4965fd24a97a29027
+PODFILE CHECKSUM: 51da78d908efc868fa6f307ac85e100f136099a9
 
 COCOAPODS: 1.4.0.beta.2
